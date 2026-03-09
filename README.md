@@ -1,3 +1,17 @@
+_,-.
+     / \  \
+    /   \  \
+   /    /  /
+  /    /  /
+ /    /  /        S W I F T F O X 
+/    /  /         O P T I M I Z E R
+\    \  \
+ \    \  \        v1.0.0 "Ultimate"
+  \    \  \
+   \    \  \
+    \   /  /
+     \ /  /
+      `-´
 🦊 SwiftFox Optimizer: Ultimate Edition
 
 High-performance Windows optimization, built by a developer who loves speed.
