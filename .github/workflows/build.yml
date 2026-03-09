@@ -1,0 +1,27 @@
+name: Build SwiftFox EXE
+on: [push]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Libraries
+        run: pip install customtkinter pyinstaller
+
+      - name: Build EXE
+        run: pyinstaller --noconfirm --onefile --windowed --uac-admin --name "SwiftFox_Ultimate_x64" main.py
+
+      - name: Upload Result
+        uses: actions/upload-artifact@v4
+        with:
+          name: SwiftFox-Windows-EXE
+          path: dist/SwiftFox_Ultimate_x64.exe
