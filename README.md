@@ -58,4 +58,4 @@ SwiftFox Optimizer is a lightweight, powerful utility designed to strip away Win
 
 This tool modifies system registries and services. Always review the main.py source code before running system-level scripts. This project is maintained by a White-Hat student developer.
 
-Developed by FerasDev-Code Wildlife Ranger | Python Developer | Cybersecurity Student
+Developed by FerasDev-Code Python Developer | Cybersecurity Student
